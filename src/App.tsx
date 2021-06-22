@@ -1,7 +1,8 @@
+import { Home } from "./pages/Home";
+import { NewRoom } from "./pages/NewRoom";
+
 function App() {
-  return (
-    <h1>Hi Planeta?</h1>
-  );
+  return <NewRoom />;
 }
 
 export default App;
