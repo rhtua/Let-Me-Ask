@@ -5,7 +5,7 @@ import "../styles/auth.scss";
 import { Button } from "../components/Button";
 import { Link, useHistory } from "react-router-dom";
 import { FormEvent, useState } from "react";
-import { useAuth } from "../hooks/UseAuth";
+import { useAuth } from "../hooks/useAuth";
 import { database } from "../services/firebase";
 
 export function NewRoom() {
